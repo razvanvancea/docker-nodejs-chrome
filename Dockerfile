@@ -1,8 +1,8 @@
-FROM node:16.13.2-slim
+FROM node:18.18.0-slim
 
 RUN apt-get update
 RUN apt-get install -y gnupg wget
-RUN npm install -g npm@8.3.0
+RUN npm install -g npm@9.5.1
 
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list \
