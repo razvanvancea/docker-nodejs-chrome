@@ -2,11 +2,11 @@
 
 
 
-NodeJS v18.18.0
+NodeJS v22.7.0
 
-NPM v9.5.1
+NPM v10.8.3
 
-Google Chrome browser v117.0.5938.132
+Google Chrome browser v128.0.6613.113
 
 [DockerHub Image](https://hub.docker.com/r/rvancea/nodejs-chrome)
 
